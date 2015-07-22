@@ -76,7 +76,7 @@ function Update ()
 			burning = false;
 			if(burnTower != null)
 			{
-				burnTower.GetComponent("Statistics").increaseDamageDealt(burnTotal);
+				burnTower.GetComponent(Tower).increaseDamageDealt(burnTotal);
 			}
 			burnTotal = 0;
 		}
@@ -109,27 +109,27 @@ function attackNPC(theTarget : GameObject)
 
 function doDamage()
 {
-	var dmgPacket = new Array();
-	dmgPacket.push(damage);
-	dmgPacket.push(gameObject);
+	var dmg_packet : List.<Object> = new List.<Object>();
+	dmg_packet.Add(damage);
+	dmg_packet.Add(gameObject);
 	if(targetIsNPC)
 	{
 		target.GetComponent("NPC").SendMessage("takeDamage", damage);
 	}
 	else
 	{
-		target.GetComponent("Statistics").SendMessage("takeDamage", dmgPacket);
+		target.GetComponent(Tower).SendMessage("takeDamage", dmg_packet);
 	}
 }
 
-function takeDamage(dmgPacket : Array)
+function takeDamage(dmg_packet : List.<Object>)
 {
-	var attacker : GameObject = dmgPacket.pop();
-	var damage : int = dmgPacket.pop();
+	var attacker : GameObject = dmg_packet[1];
+	var damage : int = dmg_packet[0];
 	displayDamage(damage);
 	if(attacker != null)
 	{
-		attacker.GetComponent("Statistics").increaseDamageDealt(Mathf.Min(damage, health));
+		attacker.GetComponent(Tower).increaseDamageDealt(Mathf.Min(damage, health));
 	}
 	health -= damage;
 	if(health <= 0)
@@ -137,7 +137,7 @@ function takeDamage(dmgPacket : Array)
 		Level.KILLED++;
 		if(attacker != null)
 		{
-			attacker.GetComponent("Statistics").increaseKills();
+			attacker.GetComponent(Tower).increaseKills();
 		}
 		Destroy(gameObject);
 	}
@@ -167,8 +167,8 @@ function burnDamage()
 		Level.KILLED++;
 		if(burnTower != null)
 		{
-			burnTower.GetComponent("Statistics").increaseKills();
-			burnTower.GetComponent("Statistics").increaseDamageDealt(burnTotal);
+			burnTower.GetComponent(Tower).increaseKills();
+			burnTower.GetComponent(Tower).increaseDamageDealt(burnTotal);
 		}
 		Destroy(gameObject);
 	}

@@ -151,11 +151,11 @@ function Update ()
 		var newTarget : GameObject;
 		if(mender)
 		{
-			newTarget = homeTower.GetComponent("Statistics").findSingleTower();
+			newTarget = homeTower.GetComponent(Tower).findSingleTower();
 		}
 		else
 		{
-			newTarget = homeTower.GetComponent("Statistics").findSingleEnemy();
+			newTarget = homeTower.GetComponent(Tower).findSingleEnemy();
 		}
 		timer = 0.0f;
 		if(newTarget != null)
@@ -184,7 +184,7 @@ function mendTarget()
 	}
 	else if(target.gameObject.tag == "Tower")
 	{
-		attacking = target.GetComponent("Statistics").mend(20);
+		attacking = target.GetComponent(Tower).mend(20);
 	}
 	else
 	{
@@ -201,9 +201,9 @@ function setNPC(isNPC : boolean)
 
 function doDamage()
 {
-	var dmgPacket = new Array();
-	dmgPacket.push(damage);
-	dmgPacket.push(homeTower);
+	var dmgPacket : List.<Object> = new List.<Object>();
+	dmgPacket.Add(damage);
+	dmgPacket.Add(homeTower);
 	target.GetComponent("AI").SendMessage("takeDamage", dmgPacket);
 }
 
@@ -241,7 +241,7 @@ function takeDamage(amount : int)
 	health -= amount;
 	if(health <= 0)
 	{
-		homeTower.GetComponent("Statistics").minionDied();
+		homeTower.GetComponent(Tower).minionDied();
 		Destroy(gameObject);
 	}
 }

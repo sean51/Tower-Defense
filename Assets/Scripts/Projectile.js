@@ -36,9 +36,9 @@ function OnTriggerEnter(col : Collider)
 
 function doDamage(target : GameObject)
 {
-	var dmgPacket = new Array();
-	dmgPacket.push(damage);
-	dmgPacket.push(shootingTower);
+	var dmgPacket : List.<Object> = new List.<Object>();
+	dmgPacket.Add(damage);
+	dmgPacket.Add(shootingTower);
 	target.GetComponent("AI").SendMessage("takeDamage", dmgPacket);
 	if(burning && target != null)
 	{

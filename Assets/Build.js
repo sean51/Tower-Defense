@@ -141,7 +141,8 @@ function create()
 						Destroy(child.gameObject);
 					}
 				}
-				placedTower03.GetComponent("Statistics").setName(current.GetComponent("Statistics").getName());
+				//placedTower03.GetComponent("Statistics").setName(current.GetComponent("Statistics").getName());
+				placedTower03.GetComponent(Tower).setName(current.GetComponent(Tower).getName());
 				changeModes();
 			}
 		}
@@ -185,5 +186,6 @@ function selectTower(tower : GameObject, clicks : boolean, fire : String, newNam
 		}
 	}
 	Debug.Log(newName);
-	current.GetComponent("Statistics").setName(newName);
+	//current.GetComponent("Statistics").setName(newName);
+	current.GetComponent(Tower).setName(newName);
 }

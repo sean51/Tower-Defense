@@ -20,7 +20,7 @@ function Update ()
 			{
 				isNPC = false;
 				target = hit.collider.gameObject;
-				text = target.GetComponent("Statistics").getStats();
+				text = target.GetComponent(Tower).getStats();
 				showPanel = true;
 			}
 			else if(hit.collider.gameObject.tag == "NPC")
@@ -52,14 +52,14 @@ function OnGUI()
 		{
 			if(GUI.Button(Rect(0, 0, Screen.width * .07, Screen.height * .05), "Upgrade"))
 			{
-				target.GetComponent("Statistics").increaseLevel();
+				target.GetComponent(Tower).increaseLevel();
 			}
 			if(GUI.Button(Rect(Screen.width * .07, 0, Screen.width * .07, Screen.height * .05), "Sell"))
 			{
-				target.GetComponent("Statistics").destroyTower();
+				target.GetComponent(Tower).destroyTower();
 				showPanel = false;
 			}
-			GUI.Box (Rect (0, Screen.height * .05, Screen.width * .14 ,Screen.height * .43), target.GetComponent("Statistics").getStats());
+			GUI.Box (Rect (0, Screen.height * .05, Screen.width * .14 ,Screen.height * .43), target.GetComponent(Tower).getStats());
 		}
 		if(GUI.Button(Rect(0, Screen.height * .43, Screen.width * .14, Screen.height * .05), "Close"))
 		{
