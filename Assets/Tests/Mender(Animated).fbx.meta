@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: f99f4b77146ed6148a6932eb2471a8cc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmLeftLower
+    100004: ArmLeftShoulder
+    100006: ArmLeftUpper
+    100008: ArmRightLower
+    100010: ArmRightShoulder
+    100012: ArmRightUpper
+    100014: BackLower
+    100016: BackMiddle
+    100018: BackUpper
+    100020: Cylinder
+    100022: FootLeft
+    100024: FootRight
+    100026: HandLeftInner
+    100028: HandLeftOuter
+    100030: HandLeftOuterExt
+    100032: HandRightInner
+    100034: HandRightOuter
+    100036: HandRightOuterExt
+    100038: Head
+    100040: HipLeft
+    100042: HipRight
+    100044: LegLeftLower
+    100046: LegLeftUpper
+    100048: LegRightLower
+    100050: LegRightUpper
+    100052: //RootNode
+    100054: Neck
+    100056: Staff
+    400000: Armature
+    400002: ArmLeftLower
+    400004: ArmLeftShoulder
+    400006: ArmLeftUpper
+    400008: ArmRightLower
+    400010: ArmRightShoulder
+    400012: ArmRightUpper
+    400014: BackLower
+    400016: BackMiddle
+    400018: BackUpper
+    400020: Cylinder
+    400022: FootLeft
+    400024: FootRight
+    400026: HandLeftInner
+    400028: HandLeftOuter
+    400030: HandLeftOuterExt
+    400032: HandRightInner
+    400034: HandRightOuter
+    400036: HandRightOuterExt
+    400038: Head
+    400040: HipLeft
+    400042: HipRight
+    400044: LegLeftLower
+    400046: LegLeftUpper
+    400048: LegRightLower
+    400050: LegRightUpper
+    400052: //RootNode
+    400054: Neck
+    400056: Staff
+    4300000: Cylinder
+    7400000: Default Take
+    7400002: Run
+    7400004: Idle
+    7400006: Attack
+    7400008: BigAttack
+    7400010: Spawn
+    7400012: Death
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cylinder
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter/HandLeftOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/Staff
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter/HandRightOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck/Head
+        weight: 1
+      - path: Armature/HipLeft
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower/FootLeft
+        weight: 1
+      - path: Armature/HipRight
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower/FootRight
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: ArmatureAction
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter/HandLeftOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/Staff
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter/HandRightOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck/Head
+        weight: 1
+      - path: Armature/HipLeft
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower/FootLeft
+        weight: 1
+      - path: Armature/HipRight
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower/FootRight
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: ArmatureAction
+      firstFrame: 90
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter/HandLeftOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/Staff
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter/HandRightOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck/Head
+        weight: 1
+      - path: Armature/HipLeft
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower/FootLeft
+        weight: 1
+      - path: Armature/HipRight
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower/FootRight
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BigAttack
+      takeName: ArmatureAction
+      firstFrame: 120
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter/HandLeftOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/Staff
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter/HandRightOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck/Head
+        weight: 1
+      - path: Armature/HipLeft
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower/FootLeft
+        weight: 1
+      - path: Armature/HipRight
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower/FootRight
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Spawn
+      takeName: ArmatureAction
+      firstFrame: 170
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter/HandLeftOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/Staff
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter/HandRightOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck/Head
+        weight: 1
+      - path: Armature/HipLeft
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower/FootLeft
+        weight: 1
+      - path: Armature/HipRight
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower/FootRight
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: ArmatureAction
+      firstFrame: 225
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/HandLeftOuter/HandLeftOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmLeftShoulder/ArmLeftUpper/ArmLeftLower/HandLeftInner/Staff
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/ArmRightShoulder/ArmRightUpper/ArmRightLower/HandRightInner/HandRightOuter/HandRightOuterExt
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck
+        weight: 1
+      - path: Armature/BackLower/BackMiddle/BackUpper/Neck/Head
+        weight: 1
+      - path: Armature/HipLeft
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower
+        weight: 1
+      - path: Armature/HipLeft/LegLeftUpper/LegLeftLower/FootLeft
+        weight: 1
+      - path: Armature/HipRight
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower
+        weight: 1
+      - path: Armature/HipRight/LegRightUpper/LegRightLower/FootRight
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

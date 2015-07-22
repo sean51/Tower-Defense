@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9450abb71fad7f7478672bc5bf47b668
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - archer: {fileID: 100002, guid: c2002b6e43b60274c803b8e444734730, type: 2}
+  - barricade: {fileID: 100000, guid: 6d841c981f782644985a73c934eb855f, type: 2}
+  - magic: {fileID: 100000, guid: 98cc96241ca877b40bdd8d9fdedb94a8, type: 2}
+  - cannon: {fileID: 100004, guid: b041ebc387e01fc47b0ac428f8c828ce, type: 2}
+  - teleport: {fileID: 100014, guid: dc896078b572aca4c94d3c31b2c9ae34, type: 2}
+  - laser: {fileID: 100016, guid: 452f62ada2d41f94d90c6b4d0745ac09, type: 2}
+  - guard: {fileID: 100000, guid: c710c0cd19160b645b4932abc5c0a29c, type: 2}
+  - demon: {fileID: 100014, guid: aa69c678e5edcd54c8bb772114ded694, type: 2}
+  - drain: {fileID: 100016, guid: 0beb7ed263de10d448345eba1d8831b3, type: 2}
+  - repair: {fileID: 100002, guid: 2dd27ab9e75a1f342a42b8802d006a43, type: 2}
+  - tower1Tooltip: {instanceID: 0}
+  - towerOutlineSkin: {instanceID: 0}
+  - attackOutlineSkin: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
