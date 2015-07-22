@@ -190,7 +190,7 @@ function mendTarget()
 	{
 		Debug.Log("HERE");
 		attacking = false;
-		UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(target.gameObject, "Assets/NPC.js(193,17)", "conversionScript");
+		//UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(target.gameObject, "Assets/NPC.js(193,17)", "conversionScript");
 	}
 }
 

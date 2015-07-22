@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\Cards\Assets\networked_mouse.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AIPathfindingBehavior.cs">
     <Files>
-      <File FileName="..\Cards\Assets\networked_mouse.js" Line="65" Column="4" />
+      <File FileName="Assets\AIPathfindingBehavior.cs" Line="2" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
