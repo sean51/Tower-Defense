@@ -2,10 +2,10 @@
 
 public class Barricade extends Tower
 {
-	//Overwritten from Tower
 	function Start () 
 	{
-
+		health = 100;
+		max_health = 100;
 	}
 	
 	//Overwritten from Tower
@@ -29,7 +29,7 @@ public class Barricade extends Tower
 	//Overwritten from Tower
 	function increaseLevel()
 	{
-		maxHealth += 100;
+		max_health += 100;
 		mend(1);
 		level++;
 	}

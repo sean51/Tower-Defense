@@ -114,7 +114,7 @@ function doDamage()
 	dmg_packet.Add(gameObject);
 	if(targetIsNPC)
 	{
-		target.GetComponent("NPC").SendMessage("takeDamage", damage);
+		target.GetComponent(NPC).SendMessage("takeDamage", dmg_packet);
 	}
 	else
 	{

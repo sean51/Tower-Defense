@@ -87,13 +87,13 @@ function create()
 								Destroy(child.gameObject);
 							}
 						}
-						current = currentInHandObject.GetComponent("Statistics").getOtherPart();
+						current = currentInHandObject.GetComponent(Tower).getOtherPart();
 						Destroy(currentInHandObject);
 						currentInHandObject = Instantiate (current, Vector3(0, 0, 0), current.transform.rotation);
 						Destroy(currentInHandObject.gameObject.GetComponent("Collider"));
 						secondClick = false;
-						previousTower.GetComponent("Statistics").enabled = true;
-						previousTower.GetComponent("Statistics").SendMessage("setOtherPart", placedTower01);
+						previousTower.GetComponent(Tower).enabled = true;
+						previousTower.GetComponent(Tower).SendMessage("setOtherPart", placedTower01);
 						previousTower.GetComponent("Collider").enabled = true;
 						for (var child : Transform in currentInHandObject.transform) 
 						{
@@ -117,13 +117,13 @@ function create()
 							Destroy(child.gameObject);
 						}
 					}
-					placedTower02.GetComponent("Statistics").setName(current.GetComponent("Statistics").getName());
-					current = currentInHandObject.GetComponent("Statistics").getOtherPart();
+					placedTower02.GetComponent(Tower).setName(current.GetComponent(Tower).getName());
+					current = currentInHandObject.GetComponent(Tower).getOtherPart();
 					Destroy(currentInHandObject);
 					currentInHandObject = Instantiate (current, Vector3(0, 0, 0), current.transform.rotation);
 					Destroy(currentInHandObject.gameObject.GetComponent("Collider"));
-					placedTower02.GetComponent("Statistics").SendMessage("setOtherPart", placedTower02);
-					placedTower02.GetComponent("Statistics").enabled = false;
+					placedTower02.GetComponent(Tower).SendMessage("setOtherPart", placedTower02);
+					placedTower02.GetComponent(Tower).enabled = false;
 					placedTower02.GetComponent("Collider").enabled = false;
 					previousTower = placedTower02;
 					secondClick = true;
@@ -141,7 +141,7 @@ function create()
 						Destroy(child.gameObject);
 					}
 				}
-				//placedTower03.GetComponent("Statistics").setName(current.GetComponent("Statistics").getName());
+				//placedTower03.GetComponent(Tower).setName(current.GetComponent(Tower).getName());
 				placedTower03.GetComponent(Tower).setName(current.GetComponent(Tower).getName());
 				changeModes();
 			}
@@ -176,7 +176,7 @@ function selectTower(tower : GameObject, clicks : boolean, fire : String, newNam
 	Destroy(currentInHandObject.gameObject.GetComponent("Collider"));
 	if(!clicks)
 	{
-		Destroy(currentInHandObject.gameObject.GetComponent("Statistics"));
+		Destroy(currentInHandObject.gameObject.GetComponent(Tower));
 	}
 	for (var child : Transform in currentInHandObject.transform) 
 	{
@@ -186,6 +186,6 @@ function selectTower(tower : GameObject, clicks : boolean, fire : String, newNam
 		}
 	}
 	Debug.Log(newName);
-	//current.GetComponent("Statistics").setName(newName);
+	//current.GetComponent(Tower).setName(newName);
 	current.GetComponent(Tower).setName(newName);
 }

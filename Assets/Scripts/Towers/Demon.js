@@ -8,6 +8,8 @@ public class  Demon extends Tower
 	//Overwritten from Tower
 	function Start () 
 	{
+		health = 100;
+		max_health = 100;
 		demonRespawn = true;
 		spawns = new Vector3[1];
 		spawns[0] = transform.position + transform.forward * 1.0;

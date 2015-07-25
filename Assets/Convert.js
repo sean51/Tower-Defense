@@ -166,7 +166,7 @@ function Update ()
 	}
 	if(!mender && (target == null || hunting) && !detecting)
 	{
-		gameObject.GetComponentInChildren(DetectEnemies).SendMessage("locateEnemy");
+		gameObject.GetComponentInChildren(Detect_Enemies).SendMessage("locateEnemy");
 		detecting = true;
 	}
 	timer += Time.deltaTime;

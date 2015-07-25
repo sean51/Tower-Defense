@@ -5,7 +5,8 @@ public class Archer extends Tower
 	//Overwritten from Tower
 	function Start()
 	{
-	
+		health = 100;
+		max_health = 100;
 	}
 	
 	function increaseLevel()

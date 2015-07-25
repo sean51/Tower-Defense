@@ -44,9 +44,9 @@ function attack()
 				fired = true;
 				direction = fireVictims[l].gameObject.transform.position;
 			}
-			var dmgPacket = new Array();
-			dmgPacket.push(22);
-			dmgPacket.push(homeTower);
+			var dmgPacket : List.<Object> = new List.<Object>();
+			dmgPacket.Add(22);
+			dmgPacket.Add(homeTower);
 			fireVictims[l].gameObject.GetComponent("AI").SendMessage("takeDamage", dmgPacket);
 			fireVictims[l].gameObject.GetComponent("AI").SendMessage("setBurn", homeTower);
 		}
