@@ -1,0 +1,1270 @@
+fileFormatVersion: 2
+guid: a73ee3495b56e884b8d661ab3e076520
+timeCreated: 1437882714
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.001_L
+    100008: Bone.001_L.001
+    100010: Bone.001_L.002
+    100012: Bone.001_L.003
+    100014: Bone.001_L.004
+    100016: Bone.001_L.005
+    100018: Bone.001_L.006
+    100020: Bone.001_L.007
+    100022: Bone.001_L.008
+    100024: Bone.001_L.009
+    100026: Bone.001_L.010
+    100028: Bone.001_L.011
+    100030: Bone.001_L.012
+    100032: Bone.001_L.013
+    100034: Bone.001_L.014
+    100036: Bone.001_L.015
+    100038: Bone.001_L.016
+    100040: Bone.001_L.017
+    100042: Bone.001_L.018
+    100044: Bone.001_L.019
+    100046: Bone.001_R
+    100048: Bone.001_R.001
+    100050: Bone.001_R.002
+    100052: Bone.001_R.003
+    100054: Bone.001_R.004
+    100056: Bone.001_R.005
+    100058: Bone.001_R.006
+    100060: Bone.001_R.007
+    100062: Bone.001_R.008
+    100064: Bone.001_R.009
+    100066: Bone.001_R.010
+    100068: Bone.001_R.011
+    100070: Bone.001_R.012
+    100072: Bone.001_R.013
+    100074: Bone.001_R.014
+    100076: Bone.001_R.015
+    100078: Bone.001_R.016
+    100080: Bone.001_R.017
+    100082: Bone.001_R.018
+    100084: Bone.001_R.019
+    100086: Bone.002
+    100088: Bone.003
+    100090: Bone.004
+    100092: Bone.005
+    100094: Bone.006
+    100096: Bone.007
+    100098: Bone.008
+    100100: Bone.009
+    100102: Bone.010
+    100104: Bone.011
+    100106: Bone_L
+    100108: Bone_L.001
+    100110: Bone_L.002
+    100112: Bone_L.003
+    100114: Bone_R
+    100116: Bone_R.001
+    100118: Bone_R.002
+    100120: Bone_R.003
+    100122: Cube
+    100124: //RootNode
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.001_L
+    400008: Bone.001_L.001
+    400010: Bone.001_L.002
+    400012: Bone.001_L.003
+    400014: Bone.001_L.004
+    400016: Bone.001_L.005
+    400018: Bone.001_L.006
+    400020: Bone.001_L.007
+    400022: Bone.001_L.008
+    400024: Bone.001_L.009
+    400026: Bone.001_L.010
+    400028: Bone.001_L.011
+    400030: Bone.001_L.012
+    400032: Bone.001_L.013
+    400034: Bone.001_L.014
+    400036: Bone.001_L.015
+    400038: Bone.001_L.016
+    400040: Bone.001_L.017
+    400042: Bone.001_L.018
+    400044: Bone.001_L.019
+    400046: Bone.001_R
+    400048: Bone.001_R.001
+    400050: Bone.001_R.002
+    400052: Bone.001_R.003
+    400054: Bone.001_R.004
+    400056: Bone.001_R.005
+    400058: Bone.001_R.006
+    400060: Bone.001_R.007
+    400062: Bone.001_R.008
+    400064: Bone.001_R.009
+    400066: Bone.001_R.010
+    400068: Bone.001_R.011
+    400070: Bone.001_R.012
+    400072: Bone.001_R.013
+    400074: Bone.001_R.014
+    400076: Bone.001_R.015
+    400078: Bone.001_R.016
+    400080: Bone.001_R.017
+    400082: Bone.001_R.018
+    400084: Bone.001_R.019
+    400086: Bone.002
+    400088: Bone.003
+    400090: Bone.004
+    400092: Bone.005
+    400094: Bone.006
+    400096: Bone.007
+    400098: Bone.008
+    400100: Bone.009
+    400102: Bone.010
+    400104: Bone.011
+    400106: Bone_L
+    400108: Bone_L.001
+    400110: Bone_L.002
+    400112: Bone_L.003
+    400114: Bone_R
+    400116: Bone_R.001
+    400118: Bone_R.002
+    400120: Bone_R.003
+    400122: Cube
+    400124: //RootNode
+    4300000: Cube
+    7400000: idle
+    7400002: Run
+    7400004: BigAttack
+    7400006: death
+    7400008: attackIdle
+    7400010: spawn
+    7400012: special
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 170
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005/Bone.001_L.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007/Bone.001_L.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005/Bone.001_R.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007/Bone.001_R.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010/Bone.011
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008/Bone.009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002/Bone_L.003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002/Bone_R.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 100
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005/Bone.001_L.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007/Bone.001_L.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005/Bone.001_R.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007/Bone.001_R.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010/Bone.011
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008/Bone.009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002/Bone_L.003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002/Bone_R.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BigAttack
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 300
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005/Bone.001_L.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007/Bone.001_L.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005/Bone.001_R.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007/Bone.001_R.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010/Bone.011
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008/Bone.009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002/Bone_L.003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002/Bone_R.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 600
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005/Bone.001_L.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007/Bone.001_L.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005/Bone.001_R.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007/Bone.001_R.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010/Bone.011
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008/Bone.009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002/Bone_L.003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002/Bone_R.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attackIdle
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 460
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005/Bone.001_L.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007/Bone.001_L.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005/Bone.001_R.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007/Bone.001_R.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010/Bone.011
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008/Bone.009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002/Bone_L.003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002/Bone_R.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: spawn
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 680
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005/Bone.001_L.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007/Bone.001_L.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005/Bone.001_R.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007/Bone.001_R.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010/Bone.011
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008/Bone.009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002/Bone_L.003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002/Bone_R.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: special
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 360
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.005/Bone.001_L.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L/Bone.001_L.001/Bone.001_L.002/Bone.001_L.003/Bone.001_L.004/Bone.001_L.007/Bone.001_L.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.012/Bone.001_L.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.011/Bone.001_L.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_L.009/Bone.001_L.010/Bone.001_L.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.005/Bone.001_R.006
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R/Bone.001_R.001/Bone.001_R.002/Bone.001_R.003/Bone.001_R.004/Bone.001_R.007/Bone.001_R.008
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.012/Bone.001_R.015
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.016
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.011/Bone.001_R.017
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.018
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_R.009/Bone.001_R.010/Bone.001_R.019
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.010/Bone.011
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.003/Bone.004/Bone.005/Bone.006/Bone.007/Bone.008/Bone.009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L.001/Bone_L.002/Bone_L.003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R.001/Bone_R.002/Bone_R.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
