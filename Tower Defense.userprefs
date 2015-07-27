@@ -1,23 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Towers\Repair.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NPCs\NPC.js">
     <Files>
-      <File FileName="Assets\Scripts\NPCs\NPC.js" Line="157" Column="2" />
-      <File FileName="Assets\Scripts\Functions.js" Line="1" Column="1" />
-      <File FileName="Assets\Waypoint.js" Line="1" Column="1" />
-      <File FileName="Assets\Convert.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\NPCs\Detect_Enemies.js" Line="1" Column="1" />
-      <File FileName="Assets\FlameAttack.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Towers\Guard.js" Line="12" Column="20" />
-      <File FileName="Assets\Scripts\NPCs\Guard_NPC.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Towers\Repair.js" Line="70" Column="5" />
-      <File FileName="Assets\Scripts\NPCs\Mender_NPC.js" Line="45" Column="22" />
-      <File FileName="Assets\Scripts\Destructable.js" Line="10" Column="17" />
-      <File FileName="Assets\Scripts\Towers\Barricade.js" Line="7" Column="16" />
-      <File FileName="Assets\Build.js" Line="178" Column="3" />
-      <File FileName="Assets\Scripts\Towers\Archer.js" Line="9" Column="20" />
-      <File FileName="Assets\Scripts\Towers\Cannon.js" Line="10" Column="20" />
-      <File FileName="Assets\Scripts\Towers\Demon.js" Line="12" Column="20" />
+      <File FileName="Assets\Scripts\Towers\Demon.js" Line="118" Column="1" />
+      <File FileName="Assets\Scripts\NPCs\NPC.js" Line="167" Column="5" />
+      <File FileName="Assets\Scripts\NPCs\Demon_NPC.js" Line="10" Column="81" />
+      <File FileName="Assets\AI.js" Line="35" Column="37" />
+      <File FileName="Assets\Scripts\Functions.js" Line="29" Column="32" />
+      <File FileName="Assets\Scripts\Towers\Tower.js" Line="75" Column="4" />
+      <File FileName="Assets\Scripts\NPCs\Detect_Enemies.js" Line="6" Column="1" />
+      <File FileName="Assets\Scripts\NPCs\Guard_NPC.js" Line="10" Column="81" />
+      <File FileName="Assets\Scripts\NPCs\Mender_NPC.js" Line="53" Column="13" />
+      <File FileName="Assets\FlameAttack.js" Line="49" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

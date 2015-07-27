@@ -25,14 +25,14 @@ public var damage : int = 10;
 
 function Start () 
 {
-	GetComponent.<Animation>()["Run"].speed = 2;
+	GetComponent.<Animation>()["run"].speed = 2;
 }
 
 function Update () 
 {
 	if(moving)
 	{
-		GetComponent.<Animation>().Play("Run");
+		GetComponent.<Animation>().Play("run");
 		
 		transform.position = Vector3.MoveTowards(transform.position, Vector3(waypoint.transform.position.x, transform.position.y, waypoint.transform.position.z), speed * Time.deltaTime);
 	}

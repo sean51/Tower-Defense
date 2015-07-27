@@ -133,7 +133,7 @@ ModelImporter:
     400124: //RootNode
     4300000: Cube
     7400000: idle
-    7400002: Run
+    7400002: run
     7400004: BigAttack
     7400006: death
     7400008: attackIdle
@@ -315,7 +315,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Run
+      name: run
       takeName: Armature|ArmatureAction.001
       firstFrame: 100
       lastFrame: 125

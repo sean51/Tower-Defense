@@ -49,7 +49,7 @@ public class  Demon extends Tower
 	}
 	
 	//Overwritten from Tower
-	function minionDied()
+	function Minion_Died(dead_minion : GameObject)
 	{
 		timer = 0.0f;
 		demonRespawn = true;

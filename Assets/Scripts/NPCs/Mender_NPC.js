@@ -23,15 +23,14 @@ public class Mender_NPC extends NPC
 				my_state = NPC_state.attacking;
 				break;
 		}
-		timer = 0.0f;
 	}
 	
 	function Idle_State()
 	{
-		if (my_state == NPC_state.idle && timer > searchCooldown)
+		if (my_state == NPC_state.idle && search_timer > search_cooldown)
 		{
+			search_timer = 0.0f;
 			var newTarget : GameObject = homeTower.GetComponent(Repair).Find_Mender_Target();
-			timer = 0.0f;
 			if(newTarget != null)
 			{
 				target = newTarget;
@@ -42,15 +41,16 @@ public class Mender_NPC extends NPC
 	
 	function Attack_State()
 	{
+		
 		if (target == null)
 		{
 			Change_State(NPC_state.idle);
 		}
 		else if (Vector3.Distance(transform.position, target.transform.position) < 1)
 		{
-			if(timer >= attackCooldown)
+			if(attack_timer >= attack_cooldown)
 			{
-				timer = 0.0f;
+				attack_timer = 0.0f;
 				GetComponent.<Animation>().Stop();
 				gameObject.transform.LookAt(Vector3(target.transform.position.x, gameObject.transform.position.y, target.transform.position.z));
 				GetComponent.<Animation>().Play("BigAttack");
