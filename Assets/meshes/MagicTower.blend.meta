@@ -1,15 +1,24 @@
 fileFormatVersion: 2
-guid: a422f3c6f05374548accf733352c41e4
-timeCreated: 1437967001
+guid: 3db3f580240b52740a84a92a06923aa0
+timeCreated: 1438007337
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cube
+    100000: Cube
+    100002: //RootNode
+    100004: Sphere
+    400000: Cube
+    400002: //RootNode
+    400004: Sphere
+    2300000: Cube
+    2300002: Sphere
+    3300000: Cube
+    3300002: Sphere
+    4300000: Sphere
+    4300002: Cube
+    7400000: Default Take
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -33,7 +42,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 30
+    globalScale: .150000006
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -67,7 +76,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   additionalBone: 0
   userData: 
   assetBundleName: 
