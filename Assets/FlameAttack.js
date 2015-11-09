@@ -48,7 +48,14 @@ function attack()
 			dmgPacket.Add(22);
 			dmgPacket.Add(homeTower);
 			fireVictims[l].gameObject.GetComponent("AI").SendMessage("takeDamage", dmgPacket);
-			fireVictims[l].gameObject.GetComponent("AI").SendMessage("setBurn", homeTower);
+			if (homeTower != null)
+			{
+				fireVictims[l].gameObject.GetComponent(Destructable).SendMessage("Set_Burn", homeTower);
+			}
+			else
+			{
+				fireVictims[l].gameObject.GetComponent(Destructable).SendMessage("Set_Burn_Test");
+			}
 		}
 	}
 	if(fired)

@@ -2,4 +2,4 @@
 
 import System.Collections.Generic;
 
-public enum NPC_state {idle, moving, attacking, hunting, avoiding};
+public enum NPC_state {idle, moving, attacking, hunting, avoiding, walking};

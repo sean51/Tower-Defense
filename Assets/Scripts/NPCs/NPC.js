@@ -387,9 +387,10 @@ public class NPC extends Destructable
 		Change_State(NPC_state.idle);
 	}
 
+	//OVERWRITTEN FROM DESTRUCTABLE
 	function takeDamage(dmg_packet : List.<Object>)
 	{
-		health -= dmg_packet[0];
+		super.takeDamage(dmg_packet);
 		if(health <= 0)
 		{
 			homeTower.GetComponent(Tower).Minion_Died(gameObject);

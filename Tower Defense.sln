@@ -1,23 +1,19 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{D63CCE7A-15EF-F17A-A2C6-DB09823E6E3E}") = "Tower Defense", "Assembly-UnityScript.unityproj", "{AFBC5270-535D-B3F0-557D-FA5A67A2807D}"
-EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AFBC5270-535D-B3F0-557D-FA5A67A2807D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFBC5270-535D-B3F0-557D-FA5A67A2807D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFBC5270-535D-B3F0-557D-FA5A67A2807D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFBC5270-535D-B3F0-557D-FA5A67A2807D}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																																																													GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																																																																																									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

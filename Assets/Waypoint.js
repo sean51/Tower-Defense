@@ -15,7 +15,7 @@ function OnTriggerEnter(col : Collider)
 		}
 		else
 		{
-			col.gameObject.GetComponent("AI").SendMessage("waypointReached", next);
+			col.gameObject.GetComponent(AI).SendMessage("waypointReached", next);
 		}
 	}
 }

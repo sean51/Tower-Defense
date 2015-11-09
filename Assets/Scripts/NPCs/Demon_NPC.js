@@ -7,11 +7,18 @@ public class Demon_NPC extends NPC
 		if ((my_state == NPC_state.hunting || my_state == NPC_state.idle) && search_timer > search_cooldown)
 		{
 			search_timer = 0.0f;
-			var newTarget : GameObject = homeTower.GetComponent(Tower).findSingleEnemy();
-			if(newTarget != null)
+			if (homeTower != null)
 			{
-				target = newTarget;
-				Change_State(NPC_state.moving);
+				var newTarget : GameObject = homeTower.GetComponent(Tower).findSingleEnemy();
+				if(newTarget != null)
+				{
+					target = newTarget;
+					Change_State(NPC_state.moving);
+				}
+				else
+				{
+					Change_State(NPC_state.hunting);
+				}
 			}
 			else
 			{

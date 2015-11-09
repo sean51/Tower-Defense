@@ -5,7 +5,7 @@ private var attacking : boolean = false;
 
 private var target : GameObject;
 
-function OnTriggerStay(col : Collider)
+function OnTriggerEnter(col : Collider)
 {
 	if(moving)
 	{

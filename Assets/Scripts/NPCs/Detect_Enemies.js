@@ -4,7 +4,7 @@ public class Detect_Enemies extends MonoBehaviour
 {
 	public var locating : boolean = true;
 
-	function OnTriggerStay(col : Collider)
+	function OnTriggerEnter(col : Collider)
 	{
 		if (locating)
 		{

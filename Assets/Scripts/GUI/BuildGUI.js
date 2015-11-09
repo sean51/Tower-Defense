@@ -44,19 +44,19 @@ function OnGUI()
 			switch(i)
 			{
 				case 0:
-					gameObject.GetComponent("Build").selectTower(barricade, false, "None", "Barricade");
+					gameObject.GetComponent("Build").selectTower(Resources.Load("Towers/barricade"), false, "None", "Barricade");
 					break;
 				case 1:
-					gameObject.GetComponent("Build").selectTower(archer, false, "Fire Projectile", "Archer");
+					gameObject.GetComponent("Build").selectTower(Resources.Load("Towers/archer"), false, "Fire Projectile", "Archer");
 					break;
 				case 2:
-					gameObject.GetComponent("Build").selectTower(cannon, false, "Fire Projectile", "Cannon");
+					gameObject.GetComponent("Build").selectTower(Resources.Load("Towers/cannon"), false, "Fire Projectile", "Cannon");
 					break;
 				case 3:
 					gameObject.GetComponent("Build").selectTower(teleport, true, "None", "Teleport");
 					break;
 				case 4:
-					gameObject.GetComponent("Build").selectTower(guard, false, "None", "Guard");
+					gameObject.GetComponent("Build").selectTower(Resources.Load("Towers/guard"), false, "None", "Guard");
 					break;
 				case 5:
 					gameObject.GetComponent("Build").selectTower(drain, false, "Fire AOE", "Drain");
@@ -65,13 +65,13 @@ function OnGUI()
 					gameObject.GetComponent("Build").selectTower(magic, false, "Fire Projectile", "Magic");
 					break;
 				case 7:
-					gameObject.GetComponent("Build").selectTower(repair, false, "None", "Repair");
+					gameObject.GetComponent("Build").selectTower(Resources.Load("Towers/repair"), false, "None", "Repair");
 					break;
 				case 8:
 					gameObject.GetComponent("Build").selectTower(laser, false, "Fire Laser", "Laser");
 					break;
 				case 9:
-					gameObject.GetComponent("Build").selectTower(demon, false, "None", "Demon");
+					gameObject.GetComponent("Build").selectTower(Resources.Load("Towers/demon"), false, "None", "Demon");
 					break;
 			}
 			gameObject.GetComponent("Build").enabled = true;
